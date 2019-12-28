@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.entete{
+    
+    background-color: rgba(110, 106, 106, 0.699);
+    
+}
+
+
+.liste{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    height: 9vh;
+    width: 80%;
+    align-items:center ;
+    margin: auto;
+
+}
+.entete a{
+    font-size: 1.7em;
+    text-decoration: none;
+    color:black;
+    
+    
+}
+.liste a:hover{
+    border-bottom: solid 3px black;
+    border-radius: 6%;
+}
+.mp1{
+    margin-top: 40px;
+    
+    border-radius: 10%;
+    height:96vh;
+    background-color: rgba(218, 255, 6, 0.815);}
+
+    .sec1{ 
+        border: solid 3px rgba(218, 255, 6, 0.767);
+        border-radius: 10%;
+        margin-left: 5vh;
+       margin-top: 2vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        height: 85.5vh;
+        margin-right: 5vh;
+    }
+.leg1{
+    font-size: 1.6em;
+    margin-left: 50px;
+    color: rgba(9, 46, 4, 0.459);
+    
+}
+.sec1 fieldset{
+    border-radius: 10%;
+    border: solid rgba(174, 0, 255, 0.514) 3px;
+    width:35%;
+    height: min-content;
+    line-height: 30px;
+    font-size: 1.1em;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    background-color:rgba(174, 0, 255, 0.514) ;
+    color: rgba(255, 255, 255, 0.753);
+    box-shadow: 0 7px rgba(174, 0, 255, 0.514);
+    transition:  0.7s ease-in-out;
+    margin-top: 12vh;
+}
+.sec1 img{
+margin-right: 100px;
+width: 250px;
+height: 250px;
+margin-top: 170px;
+transition:  0.7s ease-in-out;
+}
+.sec1 fieldset:hover{
+    transform:scale(1.1) ;
+}
+.sec1 img:hover{
+    transform:scale(1.1) ;
+}
+.boxes{
+    background-color: rgba(0, 255, 255, 0.726);
+    display: flex;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 800px;
+    background-image: url(https://www.binaryit.com.au/wp-content/uploads/2018/01/best-laptop-for-students.jpg);
+    margin-bottom: 60px;
+}
+.boxe{
+    padding-top: 15px;
+    margin-top: 180px;
+   text-align: center;
+   vertical-align: middle;
+    height: 55vh;
+    width: 38vh;
+    background-color: rgb(238, 234, 234);
+    transition: 1s;
+}
+.image{
+    
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+  
+}
+
+.test {
+
+    height:40px;
+    align-items: center;
+	opacity: 0.3S; 
+	filter: alpha(opacity=80); 
+	
+   
+ }
+
+.boxe h3{
+    font-size: 1.3em ;
+    width: 100%;
+    margin-bottom:20px;
+    transition: 0.2s ease-in-out;
+
+}
+.boxe:hover{
+    transform:scale(1.2)
+    
+
+}
+.boxe p{
+    margin-top: 50px;
+    width: 75%;
+  margin-left: 5vh;
+}
+
+  .boxe input{
+      background-color: rgba(211, 9, 9, 0.822);
+      width: 20vh;
+      margin-top:30px;
+      height: 5vh;
+  }
+.lign{
+   
+    width: 30vh;
+margin-left: 4vh;
+margin-top: 50px;
+}
+.boxe h3:hover{
+    color: red;
+}
+.boxe img:hover{
+    animation: rot 3s infinite alternate-reverse;
+}
+@keyframes rot{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{ transform: rotateY(360deg);}
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-container > div {
+    background-color: rgba(0, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+  }
+  .item1 img {
+      height:30vh ;
+      width: 1400px;
+}
+.item2 img{
+    margin-top: 1vh;
+    height: 60vh;
+    width: 30vh;
+}
+.item3 img{
+width:60vh;
+height: 30vh;
+}
+.item4 img{
+    width: 40vh;
+    height: 30vh;
+}
+.item5 img{
+    width: 1000px;
+    height: 25vh;
+}
+.sec4{
+    margin-top: 70px;
+    height: 110vh;
+    background-color: rgba(247, 19, 68, 0.685);
+  padding-top: 40px;
+
+}
+.sec4 legend{
+margin-left: 80px;
+color: rgb(3, 3, 3);
+
+}
+
+.sec4 input{
+  background-color: rgba(219, 215, 224, 0.363);
+    border-radius: 12px;
+    width: 250px;
+    height: 30px;
+   margin-top:10px;
+   box-shadow: 0 5px 15px rgba(245, 240, 240, 0.774);
+   border: gray;
+}
+.sec4 h2{
+color: rgb(33, 75, 129);
+padding-top: 10px;
+}
+.sec4 button{
+    background-color: brown;
+    border: gray;
+    padding-bottom: 20px;
+margin-left: 50px;
+border-radius: 12px;
+width: 150px;
+height: 30px;
+box-shadow: 0 5px 15px rgba(51, 47, 47, 0.774);
+margin-bottom: 15px;
+}
+.sec4 textarea{
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 12px;
+    background-color:  rgb(248, 149, 149);
+    box-shadow: 0 5px 15px rgba(51, 47, 47, 0.774);
+    border: gray;
+}
+.sec4 legend{
+    font-size: 2em;
+}
+.sec5{
+    width: 300px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: 50px;
+
+}
+.sec5 fieldset{
+    height: 89vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 13px;
+}
+.Go {padding-top: 30px;
+    padding-bottom: 20px;
+}
+.Go button{
+    padding-top: 10px;
+    color: white;
+}
